@@ -14,12 +14,16 @@ const Candidate: React.FC = () => {
 				const youtuberURL = `https://youtube.com/channel/${youtuber.id}`;
 				return(
 					<div key={index}>
-						<div className="font-bold text-3xl py-3 px-5 pb-5">
+						<div className="py-3 px-5 pb-5">
 							<a href={youtuberURL} target="_blank" rel="noreferrer">
 								<img src={youtuber.snippet.thumbnails.medium.url} alt="" />
-								{youtuber.snippet.title} 
+								<div className="font-bold text-3xl">{youtuber.snippet.title}</div> 
+								<br /> 
+								<div>
+									Subscriber {youtuber.statistics.subscriberCount}  
+								</div> 
 							</a>
-						</div>
+						</div> 
 					</div>
 				)
 			})}
