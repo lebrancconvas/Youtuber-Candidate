@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 from googleapiclient.discovery import build
+from credentials import *
 from youtuber_id import *
 
 
@@ -19,9 +20,7 @@ app.add_middleware(
 	allow_headers=["*"]
 )
 
-API_KEY = "AIzaSyAJR--0y2_4EAB7aNTnKW7LTkqfUA0_lY8"
-API_SERVICE_NAME = "youtube"
-API_VERSION = "v3"
+
 
 youtube = build(API_SERVICE_NAME, API_VERSION, developerKey=API_KEY)
 
