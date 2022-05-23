@@ -12,5 +12,6 @@ youtuber_id = {
   "pimrypie": "UCoJuMpfYKqCbvnd1DpUUJmg",
   "kaykai_salaider": "UCdLGCJcIGu5ExzYN6CXtkIw",
   "i_roam_alone": "UCCv-vtKvMvP3Lxa5rCAea2g",
-  "jack_papho": "UCUfnk5CgUjykoc-BezLMMIA" 
+  "jack_papho": "UCUfnk5CgUjykoc-BezLMMIA",
+  "bosskeerati": "UC8LoLI5rtuSjZQB2ppdUA4Q" 
 } 
