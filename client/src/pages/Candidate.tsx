@@ -16,24 +16,24 @@ const Candidate: React.FC = () => {
 					const youtuberURL = `https://youtube.com/channel/${youtuber.id}`;
 					return(
 						<div key={index}>
-							<div className="flex items-center justify-center py-3 px-5"> 
-								<a href={youtuberURL} target="_blank" rel="noreferrer">
-									<img src={youtuber.snippet.thumbnails.medium.url} alt="" />   
-									<div className="font-bold text-3xl">{youtuber.snippet.title}</div> 
-									<div>
-										Subscriber {youtuber.statistics.subscriberCount}  
-									</div> 
-									<div>
-										View Count {youtuber.statistics.viewCount}
-									</div>
-									<div>
-										Video Count {youtuber.statistics.videoCount} 
-									</div>
-									<div>
-										Date Created {youtuber.snippet.publishedAt.split("T")[0]} 
-									</div>
-								</a>
-							</div> 
+							<a href={youtuberURL} target="_blank" rel="noreferrer" className="flex items-center justify-center py-3 px-5 border-green-700 hover:bg-slate-500">
+								<div className="">  
+										<img src={youtuber.snippet.thumbnails.medium.url} alt="" />   
+										<div className="font-bold text-3xl">{youtuber.snippet.title}</div> 
+										<div>
+											Subscriber {youtuber.statistics.subscriberCount}  
+										</div> 
+										<div>
+											View Count {youtuber.statistics.viewCount}
+										</div>
+										<div>
+											Video Count {youtuber.statistics.videoCount} 
+										</div>
+										<div>
+											Date Created {youtuber.snippet.publishedAt.split("T")[0]} 
+										</div>
+								</div> 
+							</a>
 						</div>
 					)
 				})}
