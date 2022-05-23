@@ -16,7 +16,7 @@ const Candidate: React.FC = () => {
 					const youtuberURL = `https://youtube.com/channel/${youtuber.id}`;
 					return(
 						<div key={index}>
-							<a href={youtuberURL} target="_blank" rel="noreferrer" className="flex items-center justify-center py-3 px-5 border-green-700 hover:bg-slate-500">
+							<a href={youtuberURL} target="_blank" rel="noreferrer" className="flex items-center justify-center py-3 px-5 border-green-700 hover:bg-slate-300">
 								<div className="">  
 										<img src={youtuber.snippet.thumbnails.medium.url} alt="" />   
 										<div className="font-bold text-3xl">{youtuber.snippet.title}</div> 
