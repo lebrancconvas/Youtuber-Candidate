@@ -2,7 +2,7 @@ import React from 'react';
 
 const Trend: React.FC = () => {
 	return(
-		<div>
+		<div className="text-center"> 
 			<h1 className="font-bold text-3xl">Trend</h1>
 		</div>
 	)
