@@ -19,6 +19,7 @@ interface Snippet {
 	title: string;
 	description: string;
 	thumbnails: Thumbnail;
+	publishedAt: string;
 } 
 export interface YoutuberData {
 	id: string;
