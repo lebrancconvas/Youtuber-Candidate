@@ -16,7 +16,9 @@ const Navbar: React.FC = () => {
 							</NavLink> 
 						</li>
 						<li>
-							Trend
+							<NavLink to="/trend"> 
+								Trend
+							</NavLink>
 						</li> 
 						<li>
 							<NavLink to="/about">
