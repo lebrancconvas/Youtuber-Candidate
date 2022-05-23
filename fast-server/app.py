@@ -2,8 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 from googleapiclient.discovery import build
-
-from IPython.display import JSON 
+from youtuber_id import *
 
 
 app = FastAPI()
@@ -25,16 +24,6 @@ API_SERVICE_NAME = "youtube"
 API_VERSION = "v3"
 
 youtube = build(API_SERVICE_NAME, API_VERSION, developerKey=API_KEY)
-
-youtuber_id = {
-  "9arm": "UCoiEtD4v1qMAqHV5MDI5Qpg",
-  "HRK": "UC4plRabXFGdAE6HP-tBQKdQ",
-  "aimmuno": "UC53thxes5KEtBIPLbiHCdZw",
-  "pasulol": "UCnMIRw-uLz_si97_Q5RSXug",
-  "gssspotted": "UC8uxFKMADMhYn80nkfpPa-w",
-  "redremastered": "UCFgCiiEAE0DoGxqVsuF3lRg", 
-  "my_mate_nate": "UC7rtE7hSTaC8xDf5v_7O1qQ" 
-} 
 
 channel_id = list(youtuber_id.values())
 
