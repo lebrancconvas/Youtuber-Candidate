@@ -10,5 +10,7 @@ youtuber_id = {
   "taeexzenfire": "UCTCJ5s6fft7WsnPD4avg9Xg",
   "point_of_view": "UCNE22OylcFlH2An56rqLwVw",
   "pimrypie": "UCoJuMpfYKqCbvnd1DpUUJmg",
-  "kaykai_salaider": "UCdLGCJcIGu5ExzYN6CXtkIw" 
+  "kaykai_salaider": "UCdLGCJcIGu5ExzYN6CXtkIw",
+  "i_roam_alone": "UCCv-vtKvMvP3Lxa5rCAea2g",
+  "jack_papho": "UCUfnk5CgUjykoc-BezLMMIA" 
 } 
