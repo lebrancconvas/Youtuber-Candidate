@@ -1,14 +1,14 @@
 import { useState, useEffect } from 'react';
 
-export const useAPI = () => {
+export const useAPI = (url: string) => {
 	const [channel, setChannel] = useState([]);
 
 	useEffect(() => {
-		fetch("http://localhost:8000/api/v1/youtubers")
+		fetch(url) 
 			.then(response => response.json())
 			.then(data => setChannel(data))
 			.catch(err => console.error(err)) 
-	}, []); 
+	}, [url]); 
 
 	return channel;
 }

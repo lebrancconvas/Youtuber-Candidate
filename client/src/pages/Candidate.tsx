@@ -5,7 +5,7 @@ import { YoutuberData } from '../lib/youtuber.interface';
 // URL = "http://localhost:8000/api/v1/youtubers" 
 
 const Candidate: React.FC = () => {
-	const youtubers = useAPI();
+	const youtubers = useAPI('http://localhost:8000/api/v1/youtubers'); 
 
 	return(
 		<div className="text-center">   
