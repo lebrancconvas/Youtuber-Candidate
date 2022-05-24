@@ -36,3 +36,7 @@ def index():
 def get_youtubers():
   items = response["items"]
   return items 
+
+@app.get('/api/v1/trends')
+def get_youtube_trends():
+  return "Youtube Thailand Trend." 

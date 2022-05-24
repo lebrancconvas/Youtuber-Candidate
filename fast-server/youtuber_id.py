@@ -14,5 +14,6 @@ youtuber_id = {
   "i_roam_alone": "UCCv-vtKvMvP3Lxa5rCAea2g",
   "jack_papho": "UCUfnk5CgUjykoc-BezLMMIA",
   "bosskeerati": "UC8LoLI5rtuSjZQB2ppdUA4Q",
-  "topnews": "UCneS5JrD0vl6dhqs7FCZKCA" 
+  "topnews": "UCneS5JrD0vl6dhqs7FCZKCA",
+  "techcast": "UCZ1xUPnSDPRtz76nGNBcaIA" 
 } 
