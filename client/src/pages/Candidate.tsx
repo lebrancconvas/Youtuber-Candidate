@@ -1,6 +1,7 @@
 import React from 'react';
 import { useAPI } from '../hooks/useAPI';
 import { YoutuberData } from '../lib/youtuber.interface';
+import VoteButton from '../components/VoteButton';
 
 // URL = "http://localhost:8000/api/v1/youtubers" 
 
@@ -34,6 +35,9 @@ const Candidate: React.FC = () => {
 										</div>
 								</div> 
 							</a>
+							<div>
+								<VoteButton />
+							</div>
 						</div>
 					)
 				})}
